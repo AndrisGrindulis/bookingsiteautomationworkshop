@@ -14,7 +14,7 @@ Feature: Sign-up feature
       And I select Sign up button
     Then user account page is opened
 
-  Scenario: Unsuccessfull sing-up
+  Scenario: Unsuccessfull sign-up
     Given I have opened homepage
     When I select my account menu
       And I select Sign up button

@@ -1,4 +1,50 @@
 -------------------------------------------------------------------------------
 Test set: testrunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.271 s - in testrunner.TestRunner
+Tests run: 4, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 33.545 s <<< FAILURE! - in testrunner.TestRunner
+Successfull login(Login feature)  Time elapsed: 8.263 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'tdl-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+selenide.url: https://www.phptravels.net/
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8340, moz:profile: /tmp/rust_mozprofile.xlzBKG..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+selenide.baseUrl: http://localhost:8080
+Session ID: 7c2900a0-db04-47dc-abb2-bffbf6e64574
+
+Unsuccessfull login(Login feature)  Time elapsed: 5.717 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Failed to decode response from marionette
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'tdl-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+selenide.url: https://www.phptravels.net/
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8512, moz:profile: /tmp/rust_mozprofile.1CclJR..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+selenide.baseUrl: http://localhost:8080
+Session ID: e599195b-d7ea-49b8-a14d-935214285219
+
+Successfull sign-up(Sign-up feature)  Time elapsed: 12.092 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {test}
+Expected: visible
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+Tried to run command without establishing a connection
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'tdl-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8680, moz:profile: /tmp/rust_mozprofile.zuoAWY..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 73f5f6bb-66d3-45b0-85df-62636dbf5b17
+*** Element info: {Using=css selector, value=test}
+
+Unsuccessfull sign-up(Sign-up feature)  Time elapsed: 7.052 s  <<< ERROR!
+org.openqa.selenium.NoSuchWindowException: 
+Browsing context has been discarded
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'tdl-VirtualBox', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-24-generic', java.version: '1.8.0_171'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+selenide.url: https://www.phptravels.net/
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8862, moz:profile: /tmp/rust_mozprofile.kJd7G5..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-24-generic, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+selenide.baseUrl: http://localhost:8080
+Session ID: 79bdb092-267f-4e59-87a7-12163e823674
+
